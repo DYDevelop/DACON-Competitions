@@ -75,7 +75,7 @@
 
 가장먼저 어떤 모델이 가장 높은 Val Weighted F1 Score가 나오는지 확인
 |Model|Epochs|Train Loss|Val Loss|Val Weighted F1 Score|Parms|
-|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|
 |efficientnet_b0|10|0.02804|1.13945|0.78437|5.3M|
 |efficientnet_b7|10|0.09705|1.84711|0.72508|66M|
 |efficientnet_v2_s|10|0.07720|1.12502|0.78861|22M|
