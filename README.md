@@ -45,8 +45,7 @@
 
 준지도학습을 통한 항공편 지연 예측 ML 모델 개발 
 
-준지도학습은 데이터의 레이블링에 드는 비용을 절약할 수 있어 다양한 사업 분야에서 활발히 쓰이고 있습니다. 
+이 대회를 통해 다양한 M.L 모델들과 여러개의 AUTOML을 사용해보는 경험을 쌓을 수 있었다.
 
-이번 월간 데이콘 항공편 지연 예측 AI 경진대회에서는 바로 이러한 준지도학습을 활용한 AI 모델 개발을 목표로 합니다. 
-
-무궁무진한 가능성을 품고 있는 준지도학습에 대한 이해도를 높여 보세요! 
+|Auto M.L|Model|Val_Score|Things i did|
+|pycaret|Linear regression|0.647| 'Origin_Airport', 'Destination_Airport', 'Cancelled' 제외,  빈도수 각 column 마다 10회 미만 삭제  = 총  445713개 -> 443369개|
