@@ -50,3 +50,7 @@
 |Auto M.L|Model|Val_Score|Things i did|
 |---|---|---|---|
 |pycaret|Linear regression|0.647| 'Origin_Airport', 'Destination_Airport', 'Cancelled' 제외,  빈도수 각 column 마다 10회 미만 삭제  = 총  445713개 -> 443369개|
+|pycaret|Linear regression|0.7387|Baseline Code 최빈값으로 대체,  'Origin_Airport', 'Destination_Airport' 제외, 총 255001개|
+|x|Linear regression|0.6477|날짜 및 시간 수치를 Sin 함수에 넣어 반복되는 형태로 변형|
+
+
