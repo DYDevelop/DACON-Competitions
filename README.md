@@ -72,11 +72,35 @@
 이를 위해 한솔데코에서는 AI 기술을 활용하여 하자를 판단하고 빠르게 대처할 수 있는 혁신적인 방안을 모색하고자 합니다.  
 
 이 대회를 통해 직접 Object Detection을 위한 BBox Labeling, 디양한 CNN 모델과 ViT(Vision Transformer)들을 사용해보는 좋은 기회가 되었다. (비정형 데이터 대회 처음)   
+
+가장먼저 어떤 모델이 가장 높은 Val Weighted F1 Score가 나오는지 확인
 |Model|Epochs|Train Loss|Val Loss|Val Weighted F1 Score|Parms|
 |---|---|---|---|---|---|
+|efficientnet_b0|10|0.02804|1.13945|0.78437|5.3M|
+|efficientnet_b7|10|0.09705|1.84711|0.72508|66M|
+|efficientnet_v2_s|10|0.07720|1.12502|0.78861|22M|
+|efficientnet_v2_m|10|0.15804|1.0013|0.79867|120M|
+|efficientnet_v2_l|30|0.00178|0.87607|0.83241|120M|
+|maxvit_t|10|0.01741|1.16789|0.78507|69M|
+|maxvit_t|30|0.00658|0.8173|0.84318|69M|
+|swin_v2_b|10|0.11221|1.13066|0.75830|88M| 
 
-|Model|Folds|CutMix|WeightedRandomSampler|RandomContrast|HorizontalFlip|MixUp|Weighted F1 Score|
-|---|---|---|---|---|---|---|---|
-|efficientnet_b7|10|X|O|O|O|O|0.58577|
-|efficientnet_b7|10|X|O|X|X|X|0.58844|
+maxvit_t모델이 학습 시간대비 가장 높은 Val Weighted F1 Score가 나와 이 모델을 선택함 
+
+
+|Model|Folds|CutMix|WeightedRandomSampler|RandomContrast|HorizontalFlip|MixUp|Weighted F1 Score|Things i did|
+|---|---|---|---|---|---|---|---|---|
+|efficientnet_b7|10|X|O|O|O|O|0.58577|-|
+|efficientnet_b7|10|X|O|X|X|X|0.58844|-|
+|maxvit_t|10|X|O|O|O|O|0.61362|-|
+|maxvit_t|10|O|O|O|O|X|0.62905|-|
+|maxvit_t_Stacked|10|O|O|O|O|X|0.62190|분류를 잘 못하는 3 Class 분류기 Stacked|
+|maxvit_t|10|O|O|O|O|O|0.61120|-|
+|maxvit_t|10|O|O|O|O|X|0.60196|Focal Loss로 변경|
+|maxvit_t|10|O|O|O|O|X|0.61659|Early Stop 10|
+|maxvit_t|10|X|O|O|O|O|0.61096|부족한 Class에 대해 데이터 크롤링하여 추가함|
+|maxvit_t|10|X|O|X|X|X|0.60418|-|
+|maxvit_t|10|O|O|O|O|X|0.62086|CenterCrop(p=0.5, height=300, width=300)|
+
+
 
