@@ -73,7 +73,7 @@
 
 이 대회를 통해 직접 Object Detection을 위한 BBox Labeling, 디양한 CNN 모델과 ViT(Vision Transformer)들을 사용해보는 좋은 기회가 되었다. (비정형 데이터 대회 처음)   
 
-가장먼저 어떤 모델이 가장 높은 Val Weighted F1 Score가 나오는지 확인
+- 가장먼저 어떤 모델이 가장 높은 Val Weighted F1 Score가 나오는지 확인
 |Model|Epochs|Train Loss|Val Loss|Val Weighted F1 Score|Parms|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |efficientnet_b0|10|0.02804|1.13945|0.78437|5.3M|
@@ -85,7 +85,7 @@
 |maxvit_t|30|0.00658|0.8173|0.84318|69M|
 |swin_v2_b|10|0.11221|1.13066|0.75830|88M| 
 
-maxvit_t모델이 학습 시간대비 가장 높은 Val Weighted F1 Score가 나와 이 모델을 선택함 
+- maxvit_t모델이 학습 시간대비 가장 높은 Val Weighted F1 Score가 나와 이 모델을 선택함 
 
 
 |Model|Folds|CutMix|RandomContrast|HorizontalFlip|MixUp|Weighted F1 Score|Things i did|
