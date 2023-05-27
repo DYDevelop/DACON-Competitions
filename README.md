@@ -88,21 +88,21 @@
 maxvit_t모델이 학습 시간대비 가장 높은 Val Weighted F1 Score가 나와 이 모델을 선택함 
 
 
-|Model|Folds|CutMix|WeightedRandomSampler|RandomContrast|HorizontalFlip|MixUp|Weighted F1 Score|Things i did|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|efficientnet_b7|10|X|O|O|O|O|0.58577||
-|efficientnet_b7|10|X|O|X|X|X|0.58844||
-|maxvit_t|10|X|O|O|O|O|0.61362||
-|maxvit_t|10|O|O|O|O|X|0.62905||
-|maxvit_t_Stacked|10|O|O|O|O|X|0.62190|분류를 잘 못하는 3 Class 분류기 Stacked|
-|maxvit_t|10|O|O|O|O|O|0.61120||
-|maxvit_t|10|O|O|O|O|X|0.60196|Focal Loss로 변경|
-|maxvit_t|10|O|O|O|O|X|0.61659|Early Stop 10|
-|maxvit_t|10|X|O|O|O|O|0.61096|부족한 Class에 대해 데이터 크롤링하여 추가함|
-|maxvit_t|10|X|O|X|X|X|0.60418||
-|maxvit_t|10|O|O|O|O|X|0.62086|CenterCrop(p=0.5, height=300, width=300)|
-|maxvit_t|10|O|O|X|O|X|0.61445|AdamW, ReduceLROnPlateau, Data Added|
-|maxvit_t|10|O|O|X|O|X|0.63913|AdamW, CosineLR, Data Relabeled(일부만)|
-|maxvit_t|5|O|O|X|O|X|0.58788|AdamW, CosineLR, Data Relabeled -full(전체)|
-|maxvit_t|10|O|O|X|O|X|0.61463|AdamW, CosineLR, Data Relabeled -full(전체)|
+|Model|Folds|CutMix|RandomContrast|HorizontalFlip|MixUp|Weighted F1 Score|Things i did|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|efficientnet_b7|10|X|O|O|O|0.58577||
+|efficientnet_b7|10|X|X|X|X|0.58844||
+|maxvit_t|10|X|O|O|O|0.61362||
+|maxvit_t|10|O|O|O|X|0.62905||
+|maxvit_t_Stacked|10|O|O|O|X|0.62190|분류를 잘 못하는 3 Class 분류기 Stacked|
+|maxvit_t|10|O|O|O|O|0.61120||
+|maxvit_t|10|O|O|O|X|0.60196|Focal Loss로 변경|
+|maxvit_t|10|O|O|O|X|0.61659|Early Stop 10|
+|maxvit_t|10|X|O|O|O|0.61096|부족한 Class에 대해 데이터 크롤링하여 추가함|
+|maxvit_t|10|X|X|X|X|0.60418||
+|maxvit_t|10|O|O|O|X|0.62086|CenterCrop(p=0.5, height=300, width=300)|
+|maxvit_t|10|O|X|O|X|0.61445|AdamW, ReduceLROnPlateau, Data Added|
+|maxvit_t|10|O|X|O|X|0.63913|AdamW, CosineLR, Data Relabeled(일부만)|
+|maxvit_t|5|O|X|O|X|0.58788|AdamW, CosineLR, Data Relabeled -full(전체)|
+|maxvit_t|10|O|X|O|X|0.61463|AdamW, CosineLR, Data Relabeled -full(전체)|
 
