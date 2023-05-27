@@ -52,9 +52,11 @@
 |pycaret|Linear regression|0.647| 'Origin_Airport', 'Destination_Airport', 'Cancelled' 제외,  빈도수 각 column 마다 10회 미만 삭제  = 총  445713개 -> 443369개|
 |pycaret|Linear regression|0.7387|Baseline Code 최빈값으로 대체,  'Origin_Airport', 'Destination_Airport' 제외, 총 255001개|
 |pycaret|Top 3 Stacked|0.6477|Baseline Code 최빈값으로 대체,  'Origin_Airport', 'Destination_Airport' 제외, 총 255001개|
+|pycaret|Top 3 Bagged|0.6477|Baseline Code 최빈값으로 대체,  'Origin_Airport', 'Destination_Airport' 제외, 총 255001개|
 |x|Linear regression|0.6477|날짜 및 시간 수치를 Sin 함수에 넣어 반복되는 형태로 변형|
 |H20|Linear regression|0.6660|날짜 및 시간 수치를 Sin 함수에 넣어 반복되는 형태로 변형|
 |H20|Linear regression|0.6487|날짜 및 시간 수치를 Sin 함수에 넣어 반복되는 형태로 변형, Binary Class Under sampling|
+|TPOT|Linear regression|2.8214|날짜 및 시간 수치를 Sin 함수에 넣어 반복되는 형태로 변형, Binary Class Under sampling|
 |H20|Linear regression|1.0544|날짜 및 시간 수치를 Sin 함수에 넣어 반복되는 형태로 변형, Binary Class Over sampling|
 |H20|Gradient boosting|0.6509|날짜 및 시간 수치를 Sin 함수에 넣어 반복되는 형태로 변형, Binary Class Under sampling|
 |FLAML|catboost|0.9080|날짜 및 시간 수치를 Sin 함수에 넣어 반복되는 형태로 변형|
