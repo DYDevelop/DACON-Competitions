@@ -48,4 +48,5 @@
 이 대회를 통해 다양한 M.L 모델들과 여러개의 AUTOML을 사용해보는 경험을 쌓을 수 있었다.
 
 |Auto M.L|Model|Val_Score|Things i did|
+|---|---|---|---|
 |pycaret|Linear regression|0.647| 'Origin_Airport', 'Destination_Airport', 'Cancelled' 제외,  빈도수 각 column 마다 10회 미만 삭제  = 총  445713개 -> 443369개|
