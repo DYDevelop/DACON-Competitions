@@ -89,7 +89,7 @@ maxvit_t모델이 학습 시간대비 가장 높은 Val Weighted F1 Score가 나
 
 
 |Model|Folds|CutMix|WeightedRandomSampler|RandomContrast|HorizontalFlip|MixUp|Weighted F1 Score|Things i did|
-|---|---|---|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |efficientnet_b7|10|X|O|O|O|O|0.58577||
 |efficientnet_b7|10|X|O|X|X|X|0.58844||
 |maxvit_t|10|X|O|O|O|O|0.61362||
