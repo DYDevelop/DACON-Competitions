@@ -106,5 +106,11 @@
 |maxvit_t|10|O|X|O|X|0.61445|AdamW, ReduceLROnPlateau, Data Added|
 |maxvit_t|10|O|X|O|X|0.63913|AdamW, CosineLR, Data Relabeled(일부만)|
 |maxvit_t|5|O|X|O|X|0.58788|AdamW, CosineLR, Data Relabeled -full(전체)|
-|maxvit_t|10|O|X|O|X|0.61463|AdamW, CosineLR, Data Relabeled -full(전체)|
+|maxvit_t|10|O|X|O|X|0.61463|AdamW, CosineLR, Data Relabeled -full(전체)| 
 
+- Object Detection Methods
+
+|Model|Epoch|Weighted F1 Score|Things i did|
+|:---:|:---:|:---:|:---:|
+|YOLOv4|20|0.5751|Pre-Trained|
+|YOLOv6|200|0.5220|Pre-Trained|
