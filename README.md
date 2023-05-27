@@ -72,3 +72,6 @@
 이를 위해 한솔데코에서는 AI 기술을 활용하여 하자를 판단하고 빠르게 대처할 수 있는 혁신적인 방안을 모색하고자 합니다.  
 
 이 대회를 통해 직접 Object Detection을 위한 BBox Labeling, 디양한 CNN 모델과 ViT(Vision Transformer)들을 사용해보는 좋은 기회가 되었다. (비정형 데이터 대회 처음) 
+
+|Model|Folds|CutMix|WeightedRandomSampler|RandomContrast|HorizontalFlip|MixUp|Acc|
+|---|---|---|---|---|---|---|---|
