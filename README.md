@@ -143,6 +143,8 @@
 |Libra R-CNN|24|0.931|Mixup, Photo Distortion, 이상박스 탐지 후 제거, Backbone=ResNeXt152|
 |Libra R-CNN|24|0.955|Mixup, Photo Distortion, 추가 Detecor로 이상박스 탐지 후 제거|
 |Libra R-CNN|24|0.957|Mixup, Photo Distortion, 추가 Detecor로 이상박스 탐지 후 제거, AutoAugment|
+|Cascade R-CNN|24|0.937|Mixup, Photo Distortion, 추가 Detecor로 이상박스 탐지 후 제거, AutoAugment|
+|Cascade R-CNN|20|0.941|Mixup, Photo Distortion, 추가 Detecor로 이상박스 탐지 후 제거, AutoAugment|
 
 - Ensembled
    
