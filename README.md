@@ -149,4 +149,4 @@
 |Models|mAP|
 |:---:|:---:|
 |Libra + Cascade|0.979|
-|Libra + Cascade + 후처리|0.981|
+|Libra + Cascade + Postprocessing|0.981|
