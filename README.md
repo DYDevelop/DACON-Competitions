@@ -128,7 +128,7 @@
 - 다양한 데이터 강화 기법 사용
 - 모델 앙상블을 통한 일반화
 - 다양한 모델의 성능 비교
-- Two-step으로 나누어 Detection 후 분류 시도
+- Two-step으로 나누어 Detection 후 분류 시도 (Over Fitting)
 
 |Model|Epoch|mAP|Things i did|
 |:---:|:---:|:---:|:---:|
