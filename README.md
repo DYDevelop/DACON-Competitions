@@ -145,6 +145,7 @@
 |Libra R-CNN|24|0.957|Mixup, Photo Distortion, 추가 Detecor로 이상박스 탐지 후 제거, AutoAugment|
 
 - Ensembled
+   
 |Models|mAP|
 |:---:|:---:|
 |Libra + Cascade|0.979|
