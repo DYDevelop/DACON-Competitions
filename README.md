@@ -40,6 +40,13 @@
 
 * _base_/default_runtime.py안에 auto_scale_lr = dict(enable=True, base_batch_size=16)로 변경, --seed 설정, --deterministic 설정 등 Hyperparameter 설정
 
+Info) Custom Module이 regitery에 등록 안될때
+
+* 재설치 하거나
+  ---
+  cd mmdetection
+  pip install -v -e 
+  ---
 
 # 1. 월간 데이콘 항공편 지연 예측 AI 경진대회
 
