@@ -43,10 +43,10 @@
 Info) Custom Module이 regitery에 등록 안될때
 
 * 재설치 하거나
-  ---
+```shell
   cd mmdetection
   pip install -v -e 
-  ---
+```
 
 # 1. 월간 데이콘 항공편 지연 예측 AI 경진대회
 
