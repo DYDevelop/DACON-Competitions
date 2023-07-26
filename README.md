@@ -44,6 +44,11 @@ Info) Custom Module이 regitery에 등록 안될때
 
 * mmcv-full 및 mmdet을 재설치 하거나 밑의 코드를 실행해 mmdet 외 requerments를 설치
 ```shell
+# install mmcv-full
+pip install -U openmim
+mim install mmcv-full
+
+# install mmdet
 cd mmdetection
 pip install -v -e 
 ```
