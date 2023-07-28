@@ -53,6 +53,12 @@ cd mmdetection
 pip install -v -e.
 ```
 
+* Batch size를 늘리고 싶지만 memory가 부족할때 config 파일에 추가하기 (Auto Mixed Precision)
+```shell
+# fp16 settings
+fp16 = dict(loss_scale=512.)
+```
+
 # 1. 월간 데이콘 항공편 지연 예측 AI 경진대회
 
 준지도학습을 통한 항공편 지연 예측 ML 모델 개발 (정형데이터 대회 처음)
