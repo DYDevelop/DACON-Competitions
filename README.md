@@ -164,7 +164,7 @@ fp16 = dict(loss_scale=512.)
 |Cascade R-CNN|24|0.937|Mixup, Photo Distortion, 추가 Detecor로 이상박스 탐지 후 제거, AutoAugment|
 |Cascade R-CNN|20|0.941|Mixup, Photo Distortion, 추가 Detecor로 이상박스 탐지 후 제거, AutoAugment|
 
-- Ensembled
+- CVS Ensembled (Model Ensemble)
    
 |Models|mAP|
 |:---:|:---:|
