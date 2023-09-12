@@ -16,7 +16,7 @@
 - 1,463명
 
 
-## mmdetection 2.28.2 - Training with Custom Dataset
+## mmdetection v2.28.2 - Training with Custom Dataset
 
 1-1) mmdetection > mmdet > datasets > trash.py (TrashDataset class) 를 새로 생성한다.
 
