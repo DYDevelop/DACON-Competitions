@@ -40,7 +40,13 @@
 
 * _base_/default_runtime.py안에 auto_scale_lr = dict(enable=True, base_batch_size=16)로 변경, --seed 설정, --deterministic 설정 등 Hyperparameter 설정<br>
 
-1-5) Start Training
+1-5) Start Training<br>
+```shell
+# 단일 GPU로 학습
+python tools/train.py configs/sparse_rcnn/sparse_rcnn_r101_fpn_300_proposals_crop_mstrain_480-800_3x_coco.py --seed 42
+# 2개 GPU로 학습
+bash tools/dist_train.sh configs/sparse_rcnn/sparse_rcnn_r101_fpn_300_proposals_crop_mstrain_480-800_3x_coco.py 2
+```
 
 
 Info) Custom Module이 regitery에 등록 안될때
