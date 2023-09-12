@@ -28,18 +28,10 @@ def labelmetxt2coco(anns):
         for line in f_ann.readlines():
             data = line.split()
             cat = int(float(data[0]))
-            x = float(data[1]) * w
-            y = float(data[2]) * h
+            x = float(data[1]) * w - (float(data[3]) * w / 2.0)
+            y = float(data[2]) * h - (float(data[4]) * h / 2.0)
             width = float(data[3]) * w
             height = float(data[4]) * h
-            # pt3x = int(data[5])
-            # pt3y = int(data[6])
-            # #pt4x = int(data[7])
-            # #pt4y = int(data[8])
-            # x = pt1x
-            # y = pt1y
-            # width = pt3x - pt1x
-            # height = pt3y - pt1y
             area = width * height
             pork["annotations"].append({"id": cnt_ann,
                                         "image_id": i,
@@ -49,7 +41,7 @@ def labelmetxt2coco(anns):
                                         "segmentation": [],
                                         "iscrowd": 0})
             cnt_ann += 1
-        
+
     return pork
 
 # with open('/content/drive/MyDrive/DACON/236107/data/annotations/train_json', "w") as f:
