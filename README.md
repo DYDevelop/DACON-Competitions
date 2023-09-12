@@ -38,7 +38,10 @@
 
 1-4) 기타 Config file 수정한다.
 
-* _base_/default_runtime.py안에 auto_scale_lr = dict(enable=True, base_batch_size=16)로 변경, --seed 설정, --deterministic 설정 등 Hyperparameter 설정
+* _base_/default_runtime.py안에 auto_scale_lr = dict(enable=True, base_batch_size=16)로 변경, --seed 설정, --deterministic 설정 등 Hyperparameter 설정<br>
+
+1-5) Start Training
+
 
 Info) Custom Module이 regitery에 등록 안될때
 
