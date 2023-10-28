@@ -86,7 +86,6 @@ git clone https://github.com/open-mmlab/mmdetection.git
 cd mmdetection
 pip install -v -e .
 ```
-<br>
 Info) Could not load library libcudnn_cnn_infer.so.8.<br>
 ```shell
 sudo apt update
