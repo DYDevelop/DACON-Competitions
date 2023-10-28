@@ -86,6 +86,13 @@ git clone https://github.com/open-mmlab/mmdetection.git
 cd mmdetection
 pip install -v -e .
 ```
+<br>
+Info) Could not load library libcudnn_cnn_infer.so.8.
+```shell
+sudo apt update
+sudo apt install nvidia-cudnn
+```
+
 
 # 1. 월간 데이콘 항공편 지연 예측 AI 경진대회
 
