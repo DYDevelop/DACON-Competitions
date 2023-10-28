@@ -98,7 +98,10 @@ test_dataloader = val_dataloader
 val_evaluator = dict(ann_file=data_root + 'valid/valid.json')
 test_evaluator = val_evaluator
 ```
-
+- .py 파일 생성 후 학습 코드 실행
+```shell
+python tools/train.py /mnt/c/Users/김동영/Downloads/AIFactory/mmdetection/configs/faster_rcnn/faster_rcnn_r50_fpn_1x_cars.py
+```
 
 Info) Custom Module이 regitery에 등록 안될때
 
