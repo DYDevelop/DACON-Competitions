@@ -131,10 +131,10 @@ mim mmcv-full==1.7.0
 ```shell
 conda create --name openmmlab python=3.8 -y
 conda activate openmmlab
-conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 pip install -U openmim
 mim install mmengine
-mim install mmcv==2.0.0
+mim install mmcv==2.1.0
 git clone https://github.com/open-mmlab/mmdetection.git
 cd mmdetection
 pip install -v -e .
