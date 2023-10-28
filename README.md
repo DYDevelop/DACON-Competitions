@@ -85,9 +85,8 @@ mim install mmcv==2.0.0
 git clone https://github.com/open-mmlab/mmdetection.git
 cd mmdetection
 pip install -v -e .
-```
-<br>
-Info) Could not load library libcudnn_cnn_infer.so.8.
+```<br>
+Info) Could not load library libcudnn_cnn_infer.so.8.<br>
 ```shell
 sudo apt update
 sudo apt install nvidia-cudnn
