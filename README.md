@@ -50,7 +50,7 @@ bash tools/dist_train.sh configs/sparse_rcnn/sparse_rcnn_r101_fpn_300_proposals_
 ```
 
 ## mmdetection v3.2.0 - Training with Custom Dataset
-1) mmdetection > configs > faster_rcnn > faster_rcnn_r50_fpn_1x_cars.py를 새로 생성한다.
+### mmdetection > configs > faster_rcnn > faster_rcnn_r50_fpn_1x_cars.py를 새로 생성한다.
 ```shell
 # Inherit and overwrite part of the config based on this config
 _base_ = 'faster-rcnn_r50_fpn_1x_coco.py'
