@@ -86,7 +86,7 @@ git clone https://github.com/open-mmlab/mmdetection.git
 cd mmdetection
 pip install -v -e .
 ```
-Info) Could not load library libcudnn_cnn_infer.so.8.<br>
+Info) Could not load library libcudnn_cnn_infer.so.8. Error: libcuda.so: cannot open shared object file: No such file or directory<br>
 ```shell
 sudo apt update
 sudo apt install nvidia-cudnn
