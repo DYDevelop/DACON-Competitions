@@ -71,13 +71,20 @@ fp16 = dict(loss_scale=512.)
 Info) 버전 문제가 많아 사용한 버전들을 적어두자
 - mmdetection v2.28.2 with python=3.8
 ```shell
- - pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
- - mim mmcv-full==1.7.0
+pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
+mim mmcv-full==1.7.0
 ```
-- mmdetection v3.2.0 with python=3.8
+- mmdetection v3.2.0 with python=3.8 (WSL2 on Windows)
 ```shell
- - pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
- - mim install mmcv==2.0.0
+conda create --name openmmlab python=3.8 -y
+conda activate openmmlab
+conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
+pip install -U openmim
+mim install mmengine
+mim install mmcv==2.0.0
+git clone https://github.com/open-mmlab/mmdetection.git
+cd mmdetection
+pip install -v -e .
 ```
 
 # 1. 월간 데이콘 항공편 지연 예측 AI 경진대회
