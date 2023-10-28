@@ -71,8 +71,8 @@ fp16 = dict(loss_scale=512.)
 Info) 버전 문제가 많아 사용한 버전들을 적어두자
 - mmdetection v2.28.2 with python=3.8
 - pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
-- mim mmcv-full==1.7.0<br>
-
+- mim mmcv-full==1.7.0
+<br>
 - mmdetection v3.2.0 with python=3.8
 - pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
 - mim install mmcv==2.0.0
