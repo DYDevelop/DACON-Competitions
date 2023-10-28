@@ -49,6 +49,55 @@ python tools/train.py configs/sparse_rcnn/sparse_rcnn_r101_fpn_300_proposals_cro
 bash tools/dist_train.sh configs/sparse_rcnn/sparse_rcnn_r101_fpn_300_proposals_crop_mstrain_480-800_3x_coco.py 2
 ```
 
+## mmdetection v3.2.0 - Training with Custom Dataset
+```shell
+# Inherit and overwrite part of the config based on this config
+_base_ = 'faster-rcnn_r50_fpn_1x_coco.py'
+
+data_root = './custom_dataset/' # dataset root
+class_name = ('bicycle', 'bus', 'car', 'motorbike', 'person',) # dataset category name
+num_classes = len(class_name) # dataset category number
+# metainfo is a configuration that must be passed to the dataloader, otherwise it is invalid
+# palette is a display color for category at visualization
+# The palette length must be greater than or equal to the length of the classes
+metainfo = dict(classes=class_name, palette=[(20, 220, 60, 80, 120)])
+
+# Max training 40 epoch
+max_epochs = 40
+# Set batch size to 12
+base_batch_size = 8
+# dataloader num workers
+train_num_workers = 4
+
+model = dict(
+    roi_head=dict(
+        bbox_head=dict(num_classes=num_classes)
+    ))
+
+train_dataloader = dict(
+    batch_size=base_batch_size,
+    num_workers=train_num_workers,
+    dataset=dict(
+        data_root=data_root,
+        metainfo=metainfo,
+        # Dataset annotation file of json path
+        ann_file='train/train.json',
+        # Dataset prefix
+        data_prefix=dict(img='train/')))
+
+val_dataloader = dict(
+    dataset=dict(
+        metainfo=metainfo,
+        data_root=data_root,
+        ann_file='valid/valid.json',
+        data_prefix=dict(img='valid/')))
+
+test_dataloader = val_dataloader
+
+val_evaluator = dict(ann_file=data_root + 'valid/valid.json')
+test_evaluator = val_evaluator
+```
+
 
 Info) Custom Module이 regitery에 등록 안될때
 
