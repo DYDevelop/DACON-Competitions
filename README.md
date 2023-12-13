@@ -170,7 +170,7 @@ sudo apt install nvidia-cudnn
 
 # 2. 도배 하자 유형 분류 AI 
   <img width="718" alt="image" src="https://github.com/DYDevelop/DACON-Competitions/assets/55197580/454d105a-0b2f-4770-b15c-7cb04ac6566f">
-
+```shell
 한솔데코는 끊임없는 도전을 통해 성장을 모색하고자 하는 기치를 갖고, 공동 주택 내 실내 마감재 공사를 수행하며 시트와 마루, 벽면, 도배 등 건축에서 빼놓을 수 없는 핵심적인 자재를 유통하고 있습니다.  
 
 실내 마감재는 건축물 내부 공간의 인테리어와 쾌적한 생활을 좌우하는 만큼, 제품 결함에 대한 꼼꼼한 관리 역시 매우 중요합니다.  
@@ -178,7 +178,7 @@ sudo apt install nvidia-cudnn
 이를 위해 한솔데코에서는 AI 기술을 활용하여 하자를 판단하고 빠르게 대처할 수 있는 혁신적인 방안을 모색하고자 합니다.  
 
 이 대회를 통해 직접 Object Detection을 위한 BBox Labeling, 디양한 CNN 모델과 ViT(Vision Transformer)들을 사용해보는 좋은 기회가 되었다. (비정형 데이터 대회 처음)   
-
+```
 - 가장먼저 어떤 모델이 가장 높은 Val Weighted F1 Score가 나오는지 확인 
 
 
