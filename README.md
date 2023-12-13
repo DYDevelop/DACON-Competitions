@@ -9,9 +9,6 @@
 - 알고리즘 | 비전 | 분류 | MLOps | Weighted F1 Score
 - 2023.04.10 ~ 2023.05.22 09:59
 - 1,478명
-- 최종결과
-  <img width="718" alt="image" src="https://github.com/DYDevelop/DACON-Competitions/assets/55197580/454d105a-0b2f-4770-b15c-7cb04ac6566f">
-
 
 3. 합성데이터 기반 객체 탐지 AI 경진대회
 - 알고리즘 | 비전 | 객체 탐지 | mAP
@@ -172,6 +169,7 @@ sudo apt install nvidia-cudnn
 |H20|Linear regression|0.6796|날짜 및 시간 수치를 Sin 함수에 넣어 반복되는 형태로 변형, Binary Class Under sampling, 결과 첫번째 소숫점 버림|
 
 # 2. 도배 하자 유형 분류 AI 
+  <img width="718" alt="image" src="https://github.com/DYDevelop/DACON-Competitions/assets/55197580/454d105a-0b2f-4770-b15c-7cb04ac6566f">
 
 한솔데코는 끊임없는 도전을 통해 성장을 모색하고자 하는 기치를 갖고, 공동 주택 내 실내 마감재 공사를 수행하며 시트와 마루, 벽면, 도배 등 건축에서 빼놓을 수 없는 핵심적인 자재를 유통하고 있습니다.  
 
