@@ -9,6 +9,7 @@
 - 알고리즘 | 비전 | 분류 | MLOps | Weighted F1 Score
 - 2023.04.10 ~ 2023.05.22 09:59
 - 1,478명
+- 최종결과
 - <img width="718" alt="image" src="https://github.com/DYDevelop/DACON-Competitions/assets/55197580/454d105a-0b2f-4770-b15c-7cb04ac6566f">
 
 
