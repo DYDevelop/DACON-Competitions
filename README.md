@@ -271,7 +271,7 @@ sudo apt install nvidia-cudnn
 
 # 4. HD현대 AI Challenge
 ![스크린샷 2023-12-27 오후 4 30 00](https://github.com/DYDevelop/DACON-Competitions/assets/55197580/664eda6a-e97e-480a-8e28-61b02315b3fe)
-```ruby
+```
 조선해양 분야 데이터를 기반으로 한 'HD현대 AI Challenge'를 개최됩니다.
 
 코로나19 이후 물류 정체로 인해 다수의 항만에서 선박 대기 시간이 길어지고, 이로 인한 물류 지연이 화두가 되고 있습니다. 
