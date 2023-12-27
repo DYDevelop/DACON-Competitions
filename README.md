@@ -180,8 +180,7 @@ sudo apt install nvidia-cudnn
 
 # 2. 도배 하자 유형 분류 AI 
   <img width="718" alt="image" src="https://github.com/DYDevelop/DACON-Competitions/assets/55197580/454d105a-0b2f-4770-b15c-7cb04ac6566f">
- </br>
-```ruby
+
 한솔데코는 끊임없는 도전을 통해 성장을 모색하고자 하는 기치를 갖고, 공동 주택 내 실내 마감재 공사를 수행하며 시트와 마루, 벽면, 도배 등 건축에서 빼놓을 수 없는 핵심적인 자재를 유통하고 있습니다.  
 
 실내 마감재는 건축물 내부 공간의 인테리어와 쾌적한 생활을 좌우하는 만큼, 제품 결함에 대한 꼼꼼한 관리 역시 매우 중요합니다.  
@@ -189,7 +188,6 @@ sudo apt install nvidia-cudnn
 이를 위해 한솔데코에서는 AI 기술을 활용하여 하자를 판단하고 빠르게 대처할 수 있는 혁신적인 방안을 모색하고자 합니다.  
 
 이 대회를 통해 직접 Object Detection을 위한 BBox Labeling, 디양한 CNN 모델과 ViT(Vision Transformer)들을 사용해보는 좋은 기회가 되었다. (비정형 데이터 대회 처음)</br>   
-```
 
 - 가장먼저 어떤 모델이 가장 높은 Val Weighted F1 Score가 나오는지 확인 
 
@@ -235,16 +233,16 @@ sudo apt install nvidia-cudnn
 
 # 3. 합성데이터 기반 객체 탐지 AI 경진대회
   <img width="719" alt="image" src="https://github.com/DYDevelop/DACON-Competitions/assets/55197580/bdadf4ed-bc2a-4b99-a955-6a0149569409">
-````
-```shell
+
+
 합성데이터란 실제 환경에서 수집되거나 측정되는 것이 아니라 디지털 환경에서 생성되는 데이터셋으로,
 최근 방대한 양질의 데이터셋이 필요해짐에 따라 그 중요성이 대두되고 있습니다.
 
 합성 데이터는 데이터 라벨링 작업을 위한 2배 이상의 시간 절약과 10배 가까운 비용을 절감하게 하고, 자동화를 바탕으로 정확한 라벨링의 데이터 그리고 정확한 AI 모델 개발을 위한 데이터의 다양화를 가능하게 합니다.
 
 본 경진대회는 실사와 같은 객체와 배경을 비솔의 3D Rendering과 VFX 기술로 생성된 AI 학습용 고품질 합성데이터를 바탕으로 진행됩니다.
-```
-````
+
+
 - 다양한 데이터 강화 기법 사용
 - 모델 앙상블을 통한 일반화
 - 다양한 모델의 성능 비교
@@ -275,7 +273,7 @@ sudo apt install nvidia-cudnn
 
 # 4. HD현대 AI Challenge
 ![스크린샷 2023-12-27 오후 4 30 00](https://github.com/DYDevelop/DACON-Competitions/assets/55197580/664eda6a-e97e-480a-8e28-61b02315b3fe)
-```shell
+
 조선해양 분야 데이터를 기반으로 한 'HD현대 AI Challenge'를 개최됩니다.
 
 코로나19 이후 물류 정체로 인해 다수의 항만에서 선박 대기 시간이 길어지고, 이로 인한 물류 지연이 화두가 되고 있습니다. 
@@ -285,4 +283,4 @@ sudo apt install nvidia-cudnn
 본 대회에서는 접안(배를 육지에 대는 것;Berthing) 전에 선박이 해상에 정박(해상에 닻을 바다 밑바닥에 내려놓고 운항을 멈추는 것;Anchorage)하는 시간을 대기시간으로 정의하고, 선박의 제원 및 운항 정보를 활용하여 산출된 항차(voyage; 선박의 여정) 데이터를 활용하여 항만 內 선박의 대기 시간을 예측하는 AI 알고리즘을 개발을 제안합니다.
 
 이를 통해 선박의 접안 시간 예측이 가능해지고, 선박의 대기시간을 줄임으로써 연료 절감 및 온실가스 감축효과를 기대할 수 있습니다.
-```
+
