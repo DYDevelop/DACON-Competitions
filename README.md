@@ -180,6 +180,7 @@ sudo apt install nvidia-cudnn
 
 # 2. 도배 하자 유형 분류 AI 
   <img width="718" alt="image" src="https://github.com/DYDevelop/DACON-Competitions/assets/55197580/454d105a-0b2f-4770-b15c-7cb04ac6566f">
+ </br>
 ```shell
 한솔데코는 끊임없는 도전을 통해 성장을 모색하고자 하는 기치를 갖고, 공동 주택 내 실내 마감재 공사를 수행하며 시트와 마루, 벽면, 도배 등 건축에서 빼놓을 수 없는 핵심적인 자재를 유통하고 있습니다.  
 
