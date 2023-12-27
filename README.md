@@ -271,7 +271,7 @@ sudo apt install nvidia-cudnn
 |Libra + Cascade + Postprocessing|0.981|
 
 # 4. HD현대 AI Challenge
-![스크린샷 2023-12-27 오후 4 30 00](https://github.com/DYDevelop/DACON-Competitions/assets/55197580/664eda6a-e97e-480a-8e28-61b02315b3fe)
+![image](https://github.com/DYDevelop/DACON-Competitions/assets/55197580/1769cfbe-e838-413d-ab09-f8d77c549280)
 
 조선해양 분야 데이터를 기반으로 한 'HD현대 AI Challenge'를 개최됩니다.
 
@@ -284,7 +284,7 @@ sudo apt install nvidia-cudnn
 이를 통해 선박의 접안 시간 예측이 가능해지고, 선박의 대기시간을 줄임으로써 연료 절감 및 온실가스 감축효과를 기대할 수 있습니다.
 
 # 5. 대구 교통사고 피해 예측 AI 경진대회
-![image](https://github.com/DYDevelop/DACON-Competitions/assets/55197580/3b43d713-118a-4f77-9b42-9dab467f11c9)
+![image](https://github.com/DYDevelop/DACON-Competitions/assets/55197580/e229a950-d8b9-471f-aba8-1eb6fd512eb2)
 
 이동수단의 발달에 따라 다양한 유형의 교통사고들이 계속 발생하고 있습니다. 
 
