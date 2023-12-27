@@ -234,7 +234,6 @@ sudo apt install nvidia-cudnn
 # 3. 합성데이터 기반 객체 탐지 AI 경진대회
   <img width="719" alt="image" src="https://github.com/DYDevelop/DACON-Competitions/assets/55197580/bdadf4ed-bc2a-4b99-a955-6a0149569409">
 
-
 합성데이터란 실제 환경에서 수집되거나 측정되는 것이 아니라 디지털 환경에서 생성되는 데이터셋으로,
 최근 방대한 양질의 데이터셋이 필요해짐에 따라 그 중요성이 대두되고 있습니다.
 
