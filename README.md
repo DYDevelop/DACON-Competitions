@@ -161,8 +161,8 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 conda install nvidia/label/cuda-12.1.0::cuda-nvcc
 
 ## For mmcv-full==1.5.0 pytorch <= 2.0.0
-conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3 -c pytorch
-conda install nvidia/label/cuda-11.3.0::cuda-nvcc
+conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
+conda install nvidia/label/cuda-11.7.1::cuda-nvcc
 ```
 
 # 1. 월간 데이콘 항공편 지연 예측 AI 경진대회
