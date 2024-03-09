@@ -156,9 +156,13 @@ sudo apt install nvidia-cudnn
 ```
 Info) ERROR: Could not build wheels for mmcv, which is required to install pyproject.toml-based projects
 ```shell
-## check for CUDA and pytorch version
+## Check for CUDA and pytorch version
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 conda install nvidia/label/cuda-12.1.0::cuda-nvcc
+
+## For mmcv-full==1.5.0 pytorch <= 2.0.0
+conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3 -c pytorch
+conda install nvidia/label/cuda-11.3.0::cuda-nvcc
 ```
 
 # 1. 월간 데이콘 항공편 지연 예측 AI 경진대회
