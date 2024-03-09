@@ -154,7 +154,12 @@ Info) Could not load library libcudnn_cnn_infer.so.8. Error: libcuda.so: cannot 
 sudo apt update
 sudo apt install nvidia-cudnn
 ```
-
+Info) ERROR: Could not build wheels for mmcv, which is required to install pyproject.toml-based projects
+```shell
+## check for CUDA and pytorch version
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+conda install nvidia/label/cuda-12.1.0::cuda-nvcc
+```
 
 # 1. 월간 데이콘 항공편 지연 예측 AI 경진대회
 
